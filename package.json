@@ -1,0 +1,28 @@
+{
+  "name": "nextadmingithubstarter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 5000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/eslint-plugin-next": "14.0.1",
+    "ag-grid-community": "^31.0.1",
+    "ag-grid-react": "^31.0.1",
+    "axios": "^1.6.4",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^14.0.4",
+    "pm2": "^5.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-query": "^3.39.3"
+  },
+  "devDependencies": {
+    "eslint": "8",
+    "eslint-config-next": "14.0.1"
+  }
+}

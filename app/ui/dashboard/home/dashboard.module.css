@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+}
+
+.container2 {
+  top: 20px;
+  max-height: 75svh;
+  min-height: 75svh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bgSoft);
+  border-radius: 10px;
+}
+
+.header {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.menu {
+  flex: 1;
+  background-color: var(--bgSoft);
+  padding: 20px;
+}
+
+.content {
+  flex: 6;
+  padding: 20px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.main {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.side {
+  flex: 1;
+}
+
+.aggrid {
+  width: 100%;
+  height: 300px;
+  --ag-grid-size: 10px;
+  --ag-list-item-height: 40px;
+  --ag-selected-row-background-color: rgba(0, 12, 120, 0.26);
+  --ag-odd-row-background-color: rgb(241, 241, 241);
+  --ag-header-background-color: rgb(202, 202, 202);
+}
+
+.balTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
