@@ -28,7 +28,7 @@ const LoginPage = () => {
     }
 
     // setBaseURL("http://localhost:8080");
-    setBaseURL("http://52.74.232.36:85");
+    setBaseURL("http://52.74.232.36:86");
   }, []);
 
   useEffect(() => {
@@ -113,6 +113,7 @@ const LoginPage = () => {
   return (
     <div className={styles.container}>
       <form action="" className={styles.form}>
+        <h4>GBW SUBASTA SALE</h4>
         <div className={styles.banner}>
           <Image
             className={styles.banner}
